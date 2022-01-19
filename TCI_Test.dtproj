@@ -12,11 +12,11 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="DontSaveSensitive" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{a25ee871-b714-4dce-8d75-be976d9884af}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">TCI_Test</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,30 +26,29 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">CKLAP985</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkaHbN5BqKEOTILl7GHOMOwAAAAACAAAAAAADZgAAwAAAABAAAAAv6SYX4VbAAS0tU7YAXaZ4AAAAAASAAACgAAAAEAAAALbdiWGzwFViWDePo0mcuqKIAAAAdTme8IJ6nch+KujZMMXWS4kKu4RFF+NuxBfB8qhfleD5vXQT2f7WikGhdQ4gM0Q/r7WFm+ooaCFSkavmk8NhxLzYDPLPsD1/YfYgqSeONptT7EqCcZfqtJP2ViJmYjV0mCco7lffuTMR5Q22640b9ET1BLkd2uSSQP9UKfb/wN4IQPsQ4z68DxQAAACBwe9TCMU53ZVuiyrV4VtOixSt3Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="CitationImport_prodM.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="CitationImport_prodM(1).dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="CitationImport_prodM.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="CitationImport_prodM(1).dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{9D225831-6FDB-49E3-A910-12EE9340B1D8}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">CitationImport08172015</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{065ECE27-8819-4A54-95F4-864E09BD9CE5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">CitationImport_prodM 1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">1638</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1666</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{F57461DE-75FD-4266-8582-BD4CBAFE1C7E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{6B50D62D-6CA8-49D7-9748-C5FEC0EE7344}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">0</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="CM.ADO.NETConnectionManager.ConnectByProxy">
@@ -577,7 +576,7 @@
         <ConnectionProviderMappings />
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
-        <TargetServerVersion>SQLServer2019</TargetServerVersion>
+        <TargetServerVersion>SQLServer2017</TargetServerVersion>
         <AzureMode>false</AzureMode>
         <LinkedAzureTenantId />
         <LinkedAzureAccountId />
